@@ -1,0 +1,96 @@
+export const citys: Array<string> = [
+    'Angra dos reis',
+    'Belford Roxo',
+    'Campinas',
+    'Campos dos Goytcazes',
+    'Cariacica',
+    'Contagem',
+    'Duque de Caxias',
+    'Guarulhos',
+    'Linhares',
+    'Mauá',
+    'Niterói',
+    'Nova Iguaçu',
+    'Osasco',
+    'Ribeirão Preto',
+    'Rio de Janeiro',
+    'Santo André',
+    'São Bernardo do Campo',
+    'São Gonçalo',
+    'São José dos Campos',
+    'São Paulo',
+    'Serra',
+    'Sorocaba',
+    'Uberaba',
+    'Vila Velha',
+    'Vitória'
+];
+export const amount_order: Array<number> = [
+    289,
+    335,
+    1087,
+    319,
+    268,
+    314,
+    812,
+    1253,
+    276,
+    345,
+    482,
+    831,
+    630,
+    833,
+    1461,
+    962,
+    605,
+    829,
+    572,
+    1959,
+    481,
+    333,
+    998,
+    390,
+    251
+];
+
+export const distribution_center: Array<string> = [
+    'Belo Horizonte',
+    'Governador Valadares',
+    'Juiz de Fora',
+    'Montes Claros',
+    'Uberlândia'
+];
+
+export const inventory: Array<number> = [6500, 2100, 4400, 2300, 1700];
+
+export const cost_table = {
+    distribution_center: distribution_center,
+    citys: citys,
+    costs: [
+        [27.65, 35.4, 14.95, 48.6, 47.5],
+        [21.7, 29.4, 9, 42.6, 47.9],
+        [29, 4.8, 26.4, 48.65, 24.9],
+        [23.8, 23.1, 15.15, 44.3, 50.0],
+        [25.75, 18.3, 23.7, 26.75, 41.85],
+        [1, 17.75, 13.2, 20.45, 26.1],
+        [20.95, 28.7, 8.25, 33.75, 48.5],
+        [28.6, 43.95, 23.1, 48.5, 30.1],
+        [29.05, 14.7, 29.85, 39.2, 55.85],
+        [30.6, 46.25, 24.25, 50.6, 31.65],
+        [22.3, 30.0, 9.5, 43.1, 49.8],
+        [22.05, 29.8, 9.25, 42.85, 47.6],
+        [30.05, 45.45, 24.65, 50.05, 19.3],
+        [25.8, 41.2, 31.5, 41.05, 14.0],
+        [22.2, 29.25, 9.1, 42.8, 49.5],
+        [30.0, 35.75, 25.15, 50.1, 30.45],
+        [29.95, 45.0, 25.3, 49.9, 30.35],
+        [22.85, 29.0, 9.9, 43.45, 50.15],
+        [30.4, 31.75, 19.5, 50.35, 32.45],
+        [29.25, 24.0, 23.9, 49.25, 29.5],
+        [27.2, 51.0, 24.4, 40.95, 27.4],
+        [33.6, 23.55, 28.5, 53.35, 28.85],
+        [24.0, 39.4, 36.5, 32.9, 4.9],
+        [25.45, 17.6, 22.8, 42.45, 52.9],
+        [25.95, 17.9, 23.8, 42.15, 52.75]
+    ]
+};
