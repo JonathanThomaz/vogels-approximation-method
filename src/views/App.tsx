@@ -1,12 +1,13 @@
 import React from 'react';
 import '../assets/css/App.css';
+import { Differences } from './Differences';
 
 function App(): JSX.Element {
     return (
         <div className="App">
-            <header className="App-header">
-                <span>teste</span>
-            </header>
+            <table>
+                <Differences />
+            </table>
         </div>
     );
 }
