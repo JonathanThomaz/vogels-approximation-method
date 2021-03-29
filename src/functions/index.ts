@@ -51,7 +51,7 @@ export function getResultado(): number {
     dRow = calcDifference(costsRow);
     dCol = calcDifference(costsCol);
     while (c !== 0) {
-        if (Math.max(...dCol) === -1 || Math.max(...dRow) === -1) {
+        if (Math.max(...dCol) === -1 && Math.max(...dRow) === -1) {
             break;
         }
         if (Math.max(...dCol) > Math.max(...dRow)) {
